@@ -26,7 +26,7 @@ __To deploy to github pages:__
 NOTE: Before running any commands to deploy to github pages, this code must be set up using github on a public repository that has been published remotely/online. 
 
 - Once you have built your site using `npm run build`
-- To automatically deploy the dist folder to a gh-pages branch (which will automatically convert your repo to a github pages repo because of the presence of the gh-pages repo), run this command:
+- To automatically deploy the dist folder to a __gh-pages branch__ (which will automatically convert your repo to a github pages repo because of the presence of the gh-pages branch), run this command:
 ```
   npm run deploy
 ```
