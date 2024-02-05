@@ -1,7 +1,6 @@
 # three-js-gh-page
  
-
-This repo shows an example of deploying a site to github pages using (gh-pages)[https://www.npmjs.com/package/gh-pages] which is installed as a dev dependancy to the package.json
+This repo shows an example of deploying a site to github pages using [gh-pages] (https://www.npmjs.com/package/gh-pages) which is installed as a dev dependancy to the package.json. This also uses [vite](https://vitejs.dev/) as a build tool and [three.js](https://threejs.org/).
 
 __To get started:__
 
@@ -33,11 +32,11 @@ NOTE: Before running any commands to deploy to github pages, this code must be s
 ```
 
 
-
 __Notes on implementation:__
 
-- This also uses (vite)[https://vitejs.dev/] as a build tool and (three.js)[https://threejs.org/]
-- In the package.json you will note that the npm run command for the build has `--base=./` flag added, this is so that the paths used in the index.html of the build files will use relative paths and so work with github. The other thing to note is that the gh-pages command copies the dist folder and publishes it to a remote repo in a gh-pages branch
+In the package.json you will note that the npm run command for the build has `--base=./` flag added, this is so that the paths used in the index.html of the build files will use relative paths and so work with github. 
+
+The other thing to note is that the gh-pages command copies the dist folder and publishes it to a remote repo in a gh-pages branch
 ```
   "scripts": {
     "dev": "vite --port 5500 --open",
