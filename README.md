@@ -1,6 +1,6 @@
 # three-js-gh-page
  
-This repo shows an example of deploying a site to github pages using [gh-pages] (https://www.npmjs.com/package/gh-pages) which is installed as a dev dependancy to the package.json. This also uses [vite](https://vitejs.dev/) as a build tool and [three.js](https://threejs.org/).
+This repo shows an example of deploying a site to github pages using [gh-pages](https://www.npmjs.com/package/gh-pages) which is installed as a dev dependancy to the package.json. This also uses [vite](https://vitejs.dev/) as a build tool and [three.js](https://threejs.org/).
 
 __To get started:__
 
